@@ -3,6 +3,7 @@
 <br>
 <img alt="Debian package" src="https://img.shields.io/debian/v/kali">
 <img alt="GitHub Pipenv locked Python version badge" src="https://img.shields.io/badge/python-v3.9-blue">
+<img alt="Chrome Web Store badge" src="https://img.shields.io/badge/users-550-green">
 <br>
 This program its use for calculator and see shapes area and perimeter
 <br>
