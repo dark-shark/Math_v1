@@ -5,6 +5,9 @@
 <img alt="GitHub Pipenv locked Python version badge" src="https://img.shields.io/badge/python-v3.9-blue">
 <img alt="Chrome Web Store badge" src="https://img.shields.io/badge/users-550-green">
 <img alt="Arch Linux package badge" src="https://img.shields.io/badge/windows-10-blue">
+<img alt="Bugzilla bug status (Mozilla) badge" src="https://img.shields.io/badge/bug-fixed-brightgreen">
+<img alt="GitHub pull request check contexts badge" src="https://img.shields.io/badge/checks-5%20passed%2C%20%20pending-dbab09">
+<img alt="Eclipse Marketplace badge" src="https://img.shields.io/badge/updated-today-brightgreen">
 <br>
 This program its use for calculator and see shapes area and perimeter
 <br>
