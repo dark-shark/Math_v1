@@ -10,19 +10,16 @@
 <img alt="Eclipse Marketplace badge" src="https://img.shields.io/badge/updated-today-brightgreen">
 <img alt="GitHub repo file count (file extension) badge" src="https://img.shields.io/badge/files-1-blue">
 <br>
-This program its use for calculator and see shapes area and perimeter
 <br>
-My team always update this program and fix bugs 
 <br>
-This program useful for math and you can do all the things you do in the math
-<br>
-you can Computing the maths 
-<br>
-This program have very good options (you can see this options in the program)
-<br>
-after the updates add the very special things in the program 
-<br>
-one of the good things in this its you can report all the bugs
+<h2>Discription</h2>
+<p>This program its use for calculator and see shapes area and perimeter</p>
+<p>My team always update this program and fix bugs</p> 
+<p>This program useful for math and you can do all the things you do in the math</p>
+<p>you can Computing the maths 
+<p>This program have very good options (you can see this options in the program)</p>
+<p>after the updates add the very special things in the program</p> 
+<p>one of the good things in this its you can report all the bugs</p>
 <br>
 <br>
 <br>
