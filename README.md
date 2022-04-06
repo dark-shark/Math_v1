@@ -10,6 +10,7 @@
 <img alt="Eclipse Marketplace badge" src="https://img.shields.io/badge/updated-today-brightgreen">
 <img alt="GitHub repo file count (file extension) badge" src="https://img.shields.io/badge/files-1-blue">
 <img alt="Open VSX Rating (Stars) badge" src="https://img.shields.io/badge/rating-%E2%98%85%E2%98%85%E2%98%85%E2%98%85%E2%98%85-brightgreen">
+<img alt="AppVeyor tests badge" src="https://img.shields.io/badge/tests-477%20passed%2C%20%20failed-red">
 <br>
 <br>
 <br>
