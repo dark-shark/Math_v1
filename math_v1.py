@@ -1,5 +1,6 @@
 import colorama
 from colorama import Fore
+import math
 def pro() :
     print(Fore.RED + "hello welcome to this program")
     print(Fore.GREEN + "--------------------------------------------------")
@@ -12,7 +13,17 @@ def pro() :
     print(Fore.MAGENTA + "2- Calculator")
     print(Fore.MAGENTA + "3- Area and Perimeter and volume")
     print(Fore.MAGENTA + "4- Unit Convert (internet services)")
-    op = input("please enter your operation (1 to 4) : ")
+    print(Fore.MAGENTA + "5- P number")
+    print(Fore.MAGENTA + "6- get the Absolute value")
+    print(Fore.MAGENTA + "7- get the square root")
+    print(Fore.MAGENTA + "8- get the two number power")
+    print(Fore.MAGENTA + "9- get the Trigonometry")
+    print(Fore.MAGENTA + "10- convert radians to degrees")
+    print(Fore.MAGENTA + "11- convert degrees to radians")
+    print(Fore.MAGENTA + "12- get the union")
+    print(Fore.MAGENTA + "13- get the difference")
+    print(Fore.MAGENTA + "14- get the intersection")
+    op = input("please enter your operation (1 to 14) : ")
     if op == "1":
         print(Fore.YELLOW + "Hello to all Users this program its for math works")
         print(Fore.YELLOW + "Its one open source program and its free for all")
@@ -292,7 +303,107 @@ def pro() :
         if ch5 == "y":
             pro()
         else:
-            ex5 = input("please enter one key to exit : ")    
+            ex5 = input("please enter one key to exit : ") 
+    elif op == "5":
+        print(math.pi)
+        ch6 = input("do you like try again (y , n) : ")
+        if ch6 == "y":
+            pro()
+        else:
+            ex6 = input("please enter one key to exit : ") 
+    elif op == "6":
+        num19 = int(input("please enter one number : "))   
+        print(abs(num19)) 
+        ch7 = input("do you like try again (y , n) : ")
+        if ch7 == "y":
+            pro()
+        else:
+            ex7 = input("please enter one key to exit : ")
+    elif op == "7":
+        num20 = int(input("please enter one number : "))  
+        print(math.sqrt(num20))
+        ch8 = input("do you like try again (y , n) : ")
+        if ch8 == "y":
+            pro()
+        else:
+            ex8 = input("please enter one key to exit : ") 
+    elif op == "8":
+        num21 = int(input("please enter your first number : ")) 
+        num22 = int(input("please enter your second number : "))
+        print(math.pow(num21, num22))
+        ch9 = input("do you like try again (y , n) : ")
+        if ch9 == "y":
+            pro()
+        else:
+            ex9 = input("please enter one key to exit : ")
+    elif op == "9":
+        num23 = int(input("please enter your cos : ")) 
+        num24 = int(input("please enter your sin : ")) 
+        num25 = int(input("please enter your tan : ")) 
+        print(math.cos(num23)) 
+        print(math.sin(num24))
+        print(math.tan(num25))
+        ch10 = input("do you like try again (y , n) : ")
+        if ch10 == "y":
+            pro()
+        else:
+            ex10 = input("please enter one key to exit : ") 
+    elif op == "10":
+        num26 = int(input("please enter your number : ")) 
+        print(math.degrees(num26))
+        ch11 = input("do you like try again (y , n) : ")
+        if ch11 == "y":
+            pro()
+        else:
+            ex11 = input("please enter one key to exit : ") 
+    elif op == "11":
+        num27 = int(input("please enter your number : "))
+        print(math.radians(num27))
+        ch12 = input("do you like try again (y , n) : ")
+        if ch12 == "y":
+            pro()
+        else:
+            ex12 = input("please enter one key to exit : ")
+    elif op == "12":
+        num28 = set(input("please enter the numbers of one : "))
+        num29 = set(input("please enter the numbers of two : "))
+        A = num28
+        B = num29
+        A_union_B = A | B
+        B_union_A = B | A
+        print(A.union(B))
+        print(B.union(A))
+        ch13 = input("do you like try again (y , n) : ")
+        if ch13 == "y":
+            pro()
+        else:
+            ex13 = input("please enter one key to exit : ")
+    elif op == "13":
+        num30 = set(input("please enter the numbers of one : "))
+        num31 = set(input("please enter the numbers of two : ")) 
+        A = num30
+        B = num31
+        print(A - B)
+        print(A.difference(B))
+        print(B.difference(A)) 
+        ch14 = input("do you like try again (y , n) : ")
+        if ch14 == "y":
+            pro()
+        else:
+            ex14 = input("please enter one key to exit : ")
+    elif op == "14":
+        num32 = set(input("please enter the numbers of one : "))
+        num33 = set(input("please enter the numbers of two : "))
+        A = num32
+        B = num33
+        print(A & B)
+        print(A.intersection(B))
+        print(B.intersection(A))
+        ch15 = input("do you like try again (y , n) : ")
+        if ch15 == "y":
+            pro()
+        else:
+            ex15 = input("please enter one key to exit : ")                                                                  
     else:
         ch4 = input("do you like try again (y , n) : ")
         if ch4 == "y":
