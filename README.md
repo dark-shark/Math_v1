@@ -2,7 +2,7 @@
 ![ALPHA EYES](https://user-images.githubusercontent.com/88088981/161790930-a7683cac-1910-4bb0-8cce-a1d2efed85d5.jpg)
 <br>
 <img alt="Debian package" src="https://img.shields.io/debian/v/kali">
-<img alt="GitHub Pipenv locked Python version badge" src="https://img.shields.io/badge/python-v3.9-blue">
+<img alt="GitHub Pipenv locked Python version badge" src="https://img.shields.io/badge/python-v3.9.6-blue">
 <img alt="Chrome Web Store badge" src="https://img.shields.io/badge/users-550-green">
 <img alt="Arch Linux package badge" src="https://img.shields.io/badge/windows-10-blue">
 <img alt="Bugzilla bug status (Mozilla) badge" src="https://img.shields.io/badge/bug-fixed-brightgreen">
