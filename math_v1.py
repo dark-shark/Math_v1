@@ -33,34 +33,34 @@ def pro() :
             pro()
         else:
             ex2 = input("please enter one key to exit : ")    
-    if op == "2":
+    elif op == "2":
         oper = input("please enter your operator (+ , - , * , / , ** , %) : ")
         if oper == "+":
             num1 = int(input("please enter number one : "))   
             num2 = int(input("please enter number two : "))
             num3 = num1 + num2
             print(num3)
-        if oper == "-":
+        elif oper == "-":
             num4 = int(input("please enter number one : "))    
             num5 = int(input("please enter number two : "))
             num6 = num4 - num5
             print(num6)  
-        if oper == "*":
+        elif oper == "*":
             num7 = int(input("please enter number one : "))    
             num8 = int(input("please enter number two : "))
             num9 = num7 * num8
             print(num9)  
-        if oper == "/":
+        elif oper == "/":
             num10 = int(input("please enter number one : "))    
             num11 = int(input("please enter number two : "))
             num12 = num10 / num11
             print(num12)   
-        if oper == "**":
+        elif oper == "**":
             num13 = int(input("please enter number one : "))
             num14 = int(input("please enter number two : ")) 
             num15 = num13 ** num14
             print(num15)
-        if oper == "%":
+        elif oper == "%":
             num16 = int(input("please enter number one : "))  
             num17 = int(input("please enter number two : ")) 
             num18 = num16 % num17
@@ -70,7 +70,7 @@ def pro() :
             pro()
         else:
             ex = input("please enter one key to exit : ") 
-    if op == "3":
+    elif op == "3":
         print(Fore.WHITE + "1- Square area")
         print(Fore.WHITE + "2- Square perimeter") 
         print(Fore.WHITE + "3- Rectangular area") 
@@ -106,44 +106,44 @@ def pro() :
             n2 = int(input("please enter itself : "))
             n3 = n1 * n2
             print(n3)
-        if ope == "2":
+        elif ope == "2":
             print("Square perimeter = one side * 4")
             n4 = int(input("please enter one side : "))
             n5 = n4 * 4
             print(n5)  
-        if ope == "3":
+        elif ope == "3":
             print("Rectangular area = length * width") 
             n6 = int(input("please enter lengh : "))
             n7 = int(input("please enter width : "))
             n8 = n6 * n7
             print(n8)
-        if ope == "4":
+        elif ope == "4":
             print("Rectangular perimeter = (length + width) * 2")
             n9 = int(input("please enter length : "))  
             n10 = int(input("please enter width : ")) 
             n11 = (n9 + n10) * 2
             print(n11)
-        if ope == "5":
+        elif ope == "5":
             print("Triangle area = (base * height) / 2")
             n12 = int(input("please enter base : "))  
             n13 = int(input("please enter height : ")) 
             n14 = (n12 * n13) / 2
             print(n14)
-        if ope == "6":
+        elif ope == "6":
             print("Triangle perimeter = sum of three sides") 
             n15 = int(input("please enter side one : ")) 
             n16 = int(input("please enter side two : ")) 
             n17 = int(input("please enter side three : ")) 
             n18 = n15 + n16 + n17 
             print(n18)
-        if ope == "7":
+        elif ope == "7":
             print("Trapezoid area = (large base + small base) * height / 2")
             n19 = int(input("please enter large base : "))
             n20 = int(input("please enter small base : ")) 
             n21 = int(input("please enter height : ")) 
             n22 = (n19 + n20) * n21 / 2
             print(n22)    
-        if ope == "8":
+        elif ope == "8":
             print("Trapezoidal perimeter = sum of four sides")
             n23 = int(input("please enter side one : ")) 
             n24 = int(input("please enter side two : ")) 
@@ -151,56 +151,56 @@ def pro() :
             n26 = int(input("please enter side four : ")) 
             n27 = n23 + n24 + n25 + n26 
             print(n27) 
-        if ope == "9":
+        elif ope == "9":
             print("Lozenge area = (large diameter * small diameter) / 2")
             n28 = int(input("please enter large diameter : "))
             n29 = int(input("please enter small diameter : "))
             n30 = (n28 * n29) / 2
             print(n30)    
-        if ope == "10":
+        elif ope == "10":
             print("Lozenge perimeter = one side * 4")
             n31 = int(input("please enter one side : ")) 
             n32 = n31 * 4
             print(n32) 
-        if ope == "11":
+        elif ope == "11":
             print("Parallel area = height rule")
             n33 = int(input("please enter height rule : "))
             print(n33)  
-        if ope == "12":
+        elif ope == "12":
             print("Perpendicular perimeter = sum of two consecutive sides * 2")
             n34 = int(input("please enter consecutive side one : ")) 
             n35 = int(input("please enter consecutive side two : ")) 
             n36 = n34 + n35 * 2
             print(n36)
-        if ope == "13":
+        elif ope == "13":
             print("Circle area = P number (3.14) * radius * radius")
             n37 = int(input("please enter radius : ")) 
             n38 = 3.14 * n37 * n37 
             print(n38) 
-        if ope == "14":
+        elif ope == "14":
             print("Circle perimeter = P number (3.14) * diameter")
             n39 = int(input("please enter diameter : ")) 
             n40 = 3.14 * n39
             print(n40)
-        if ope == "15":
+        elif ope == "15":
             print("Sphere area = 4 * 3.14 radius to the power of two") 
             n41 = int(input("please enter radius : ")) 
             n42 = 4 * 3.14 * n41 ** 2
             print(n42)
-        if ope == "16":
+        elif ope == "16":
             print("Sphere volume = four thirds * 3.14 radius to the power of three") 
             n43 = int(input("please enter four thirds : "))
             n44 = int(input("please enter radius : ")) 
             n45 = n43 * 3.14 * n44 ** 2
             print(n45)
-        if ope == "17":
+        elif ope == "17":
             print("Rectangular cube volume = length * width * height") 
             n46 = int(input("please enter length : ")) 
             n47 = int(input("please enter width : "))
             n48 = int(input("please enter height : "))
             n49 = n46 * n47 * n48 
             print(n49)
-        if ope == "18":
+        elif ope == "18":
             print("Square cube volume = base * height (edge ​​length * area of ​​one face)")
             n50 = int(input("please enter base : ")) 
             n51 = int(input("please enter height : "))
@@ -208,14 +208,14 @@ def pro() :
             n53 = int(input("please enter area of one face : "))
             n54 = n50 * n51 (n52 * n53)
             print(n54)
-        if ope == "19":
+        elif ope == "19":
             print("Pyramid volume = area of ​​the base of the pyramid * height of the pyramid * one third")
             n55 = int(input("please enter area of ​​the base of the pyramid : "))
             n56 = int(input("please enter height of the pyramid : ")) 
             n57 = int(input("please enter one third : "))
             n58 = n55 * n56 * n57
             print(n58)
-        if ope == "20":
+        elif ope == "20":
             print("Regular pyramid area = mile length * perimeter * one-half + (base area)")
             n59 = int(input("please enter mile lenght : "))
             n60 = int(input("please enter perimeter : "))
@@ -223,13 +223,13 @@ def pro() :
             n62 = int(input("please enter base area : ")) 
             n63 = n59 * n60 * n61 + (n62)
             print(n63) 
-        if ope == "21":
+        elif ope == "21":
             print("Irregular pyramid area = (lateral area) + (base area)")
             n64 = int(input("please enter lateral area : "))
             n65 = int(input("please enter base area : ")) 
             n66 = (n64) + (n65)
             print(n66) 
-        if ope == "22":
+        elif ope == "22":
             print("Lateral area of ​​the cylinder = circumference of the base * height volume of the cylinder = area of ​​the base * height")
             n67 = int(input("please enter circumference of the base : ")) 
             n68 = int(input("please enter area of the base : ")) 
@@ -237,7 +237,7 @@ def pro() :
             n70 = n68 * n69
             n71 = n70 * n67
             print(n71)
-        if ope == "23":
+        elif ope == "23":
             print("Total surface of the cylinder = level of two bases + lateral area (total area of ​​two bases + height * around the base)")
             n72 = int(input("please enter level of two bases : ")) 
             n73 = int(input("please enter total area of two base : ")) 
@@ -246,30 +246,30 @@ def pro() :
             n76 = n73 + n74 * n75
             n77 = n76 + n72
             print(n77)    
-        if ope == "24":
+        elif ope == "24":
             print("Cone volume = base area * one third * height")
             n78 = int(input("please enter base area: "))  
             n79 = int(input("please enter one third : "))
             n80 = int(input("please enter height : ")) 
             n81 = n78 * n79 * n80
             print(n81)  
-        if ope == "25":
+        elif ope == "25":
             print("Lateral area of ​​the cone = P number (3.14) * radius * side length")
             n82 = int(input("please enter radius : ")) 
             n83 = int(input("please enter side length : "))
             n84 = 3.14 * n82 * n83
             print(n84)  
-        if ope == "26":
+        elif ope == "26":
             print("Total area of ​​the cone = (radius + side length) * radius * number (3.14)") 
             n85 = int(input("please enter radius : ")) 
             n86 = int(input("please enter side length : ")) 
             n87 = (n85 + n86) * n85 * 3.14
             print(n87) 
-        if ope == "27":
+        elif ope == "27":
             print("Side area of ​​the charter = the total area of ​​the side surfaces")
             n88 = int(input("please enter the total area of ​​the side surfaces : ")) 
             print(n88)   
-        if ope == "28":
+        elif ope == "28":
             print("Total area of ​​the charter = total area of ​​two rules + total area of ​​lateral surfaces")
             n89 = int(input("please enter total area of ​​two rules : "))
             n90 = int(input("please enter total area of ​​lateral surfaces : "))
@@ -280,7 +280,7 @@ def pro() :
             pro()
         else:
             ex3 = input("please enter one key to exit : ")
-    if op == "4":
+    elif op == "4":
         print(Fore.CYAN + "Service speed  |  Maximum download in the best conditions")
         print(Fore.CYAN + "1024 (1 Mbps)  |  128 KBps")
         print(Fore.CYAN + "2048 (2 Mbps)  |  256 KBps")
