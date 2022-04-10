@@ -23,7 +23,8 @@ def pro() :
     print(Fore.MAGENTA + "12- get the union")
     print(Fore.MAGENTA + "13- get the difference")
     print(Fore.MAGENTA + "14- get the intersection")
-    op = input("please enter your operation (1 to 14) : ")
+    print(Fore.MAGENTA + "15- get a Coordinates")
+    op = input("please enter your operation (1 to 15) : ")
     if op == "1":
         print(Fore.YELLOW + "Hello to all Users this program its for math works")
         print(Fore.YELLOW + "Its one open source program and its free for all")
@@ -403,7 +404,38 @@ def pro() :
         if ch15 == "y":
             pro()
         else:
-            ex15 = input("please enter one key to exit : ")                                                                  
+            ex15 = input("please enter one key to exit : ")
+    elif op == "15":
+        op2 = input("please enter ypur operator for Coordinates ( + , - , * , / ) : ")
+        x1 = int(input("please enter your x for the first Coordinate : ")) 
+        y1 = int(input("please enter your y for the first Coordinate : "))  
+        x2 = int(input("please enter your x for the second Coordinate : "))
+        y2 = int(input("please enter your y for the second Coordinate : ")) 
+        if op2 == "+":
+            data1 = x1 + x2
+            data2 = y1 + y2
+            print(data1)
+            print(data2) 
+        elif op2 == "-":
+            data1 = x1 - x2
+            data2 = y1 - y2
+            print(data1)
+            print(data2)
+        elif op2 == "*":
+            data1 = x1 * x2
+            data2 = y1 * y2
+            print(data1)
+            print(data2)
+        elif op2 == "/":
+            data1 = x1 / x2
+            data2 = y1 / y2
+            print(data1)
+            print(data2)
+        ch16 = input("do you like try again (y , n) : ")
+        if ch16 == "y":
+            pro()
+        else:
+            ex16 = input("please enter one key to exit : ")                                                                                    
     else:
         ch4 = input("do you like try again (y , n) : ")
         if ch4 == "y":
