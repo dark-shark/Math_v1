@@ -1,16 +1,14 @@
 # Math_v1
 ![ALPHA EYES](https://user-images.githubusercontent.com/88088981/161790930-a7683cac-1910-4bb0-8cce-a1d2efed85d5.jpg)
 <br>
-<img alt="Debian package" src="https://img.shields.io/debian/v/kali">
-<img alt="GitHub Pipenv locked Python version badge" src="https://img.shields.io/badge/python-v3.9.6-blue">
-<img alt="Chrome Web Store badge" src="https://img.shields.io/badge/users-550-green">
-<img alt="Arch Linux package badge" src="https://img.shields.io/badge/windows-10-blue">
-<img alt="Bugzilla bug status (Mozilla) badge" src="https://img.shields.io/badge/bug-fixed-brightgreen">
-<img alt="GitHub pull request check contexts badge" src="https://img.shields.io/badge/checks-5%20passed%2C%20%20pending-dbab09">
-<img alt="Eclipse Marketplace badge" src="https://img.shields.io/badge/updated-today-brightgreen">
-<img alt="GitHub repo file count (file extension) badge" src="https://img.shields.io/badge/files-1-blue">
-<img alt="Open VSX Rating (Stars) badge" src="https://img.shields.io/badge/rating-%E2%98%85%E2%98%85%E2%98%85%E2%98%85%E2%98%85-brightgreen">
-<img alt="AppVeyor tests badge" src="https://img.shields.io/badge/tests-477%20passed%2C%20%20failed-red">
+<br>
+![Files](https://img.shields.io/github/directory-file-count/dark-shark/Math_v1?style=for-the-badge)
+![Downloads](https://img.shields.io/github/downloads/dark-shark/Math_v1/total?style=for-the-badge)
+![Commit](https://img.shields.io/github/last-commit/dark-shark/Math_v1?style=for-the-badge)
+<br>
+<br>
+![Followers](https://img.shields.io/github/followers/dark-shark?style=social)
+![Stars](https://img.shields.io/github/stars/dark-shark/Math_v1?style=social)
 <br>
 <br>
 <br>
