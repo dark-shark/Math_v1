@@ -3,6 +3,7 @@
 <br>
 <br>
 ![Files](https://img.shields.io/github/directory-file-count/dark-shark/Math_v1?style=for-the-badge)
+![Size](https://img.shields.io/github/repo-size/dark-shark/Math_v1?style=for-the-badge)
 ![Downloads](https://img.shields.io/github/downloads/dark-shark/Math_v1/total?style=for-the-badge)
 ![Commit](https://img.shields.io/github/last-commit/dark-shark/Math_v1?style=for-the-badge)
 <br>
